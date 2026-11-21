@@ -617,3 +617,11 @@ html,body{max-width:100%;overflow-x:clip}
 .report-pagination-actions button:disabled{opacity:.45;cursor:default}
 .report-table-scroll{max-width:100%;overflow-x:auto}
 @media(max-width:540px){.report-pagination{flex-direction:column;align-items:stretch}.report-pagination-actions{justify-content:space-between}.report-pagination-actions button{padding:9px 12px}}
+
+#goalsSummary .goal-home-row{margin:14px 0 18px;min-width:0}
+#goalsSummary .goal-home-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;min-width:0}
+#goalsSummary .goal-home-heading span{overflow-wrap:anywhere}
+#goalsSummary .goal-home-heading b{white-space:nowrap}
+#goalsSummary .goal-track{height:11px;background:#f1e9e3;border-radius:8px;overflow:hidden;margin-top:8px}
+#goalsSummary .goal-fill{height:100%;background:#c97859;border-radius:8px;transition:width .25s ease}
+#dialog [data-split-controls][hidden]{display:none!important}
