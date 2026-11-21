@@ -625,3 +625,8 @@ html,body{max-width:100%;overflow-x:clip}
 #goalsSummary .goal-track{height:11px;background:#f1e9e3;border-radius:8px;overflow:hidden;margin-top:8px}
 #goalsSummary .goal-fill{height:100%;background:#c97859;border-radius:8px;transition:width .25s ease}
 #dialog [data-split-controls][hidden]{display:none!important}
+
+/* Receitas: categorias clicáveis com detalhes dos lançamentos. */
+#incomeCategoryChart .income-category-button{cursor:pointer;border-radius:10px;padding:6px 8px;margin-left:-8px;margin-right:-8px}
+#incomeCategoryChart .income-category-button:hover,#incomeCategoryChart .income-category-button:focus-visible{background:#f1f5f1;outline-offset:2px}
+#incomeCategoryChart .income-category-button:focus-visible{outline:2px solid #23475a}
