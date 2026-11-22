@@ -630,3 +630,6 @@ html,body{max-width:100%;overflow-x:clip}
 #incomeCategoryChart .income-category-button{cursor:pointer;border-radius:10px;padding:6px 8px;margin-left:-8px;margin-right:-8px}
 #incomeCategoryChart .income-category-button:hover,#incomeCategoryChart .income-category-button:focus-visible{background:#f1f5f1;outline-offset:2px}
 #incomeCategoryChart .income-category-button:focus-visible{outline:2px solid #23475a}
+
+#signupScreen .login-card,#setupScreen .login-card{max-width:460px}
+#signupScreen .login-card>button,#setupScreen .login-card>button{margin-top:12px}
