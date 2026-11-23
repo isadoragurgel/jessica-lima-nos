@@ -638,3 +638,13 @@ html,body{max-width:100%;overflow-x:clip}
 
 /* Cadastro: escolher o espaço antes de informar dados pessoais */
 .signup-space-choice{display:grid;gap:11px;margin:22px 0 25px}.signup-space-option{display:flex;align-items:center;gap:14px;border:1.5px solid #dbe3e2;border-radius:18px;padding:17px 15px;background:#fff;cursor:pointer;transition:border-color .15s,background-color .15s}.signup-space-option:has(input:checked){border-color:#1a324b;background:#f3f7f6;box-shadow:inset 0 0 0 1px #1a324b}.signup-space-option input{accent-color:#1a324b;width:17px!important;flex:none}.signup-space-icon{width:38px;height:38px;flex:none;border-radius:12px;background:#e6eeea;color:#1a324b;display:grid;place-items:center;font-size:23px}.signup-space-option>span:last-child{display:grid;gap:5px}.signup-space-option strong{font-size:16px;color:#1a324b}.signup-space-option small{color:#657a86;font-size:12px;line-height:1.5}.signup-step-label{font-size:13px;font-weight:700;color:#1a324b;margin:12px 0 18px}#signupButton{width:100%}
+
+/* Cartões de escolha: hierarquia tipográfica suave e seleção delicada */
+#signupScreen .signup-space-choice{gap:12px;margin:20px 0 24px}
+#signupScreen .signup-space-option{border-width:1px;border-color:#dce5e3;border-radius:16px;padding:17px 16px;gap:13px;box-shadow:none}
+#signupScreen .signup-space-option:has(input:checked){border-width:1px;border-color:#829ba7;background:#f7f9f8;box-shadow:0 0 0 1px #c6d5d7}
+#signupScreen .signup-space-option strong{font-size:15px;font-weight:600;letter-spacing:-.015em;line-height:1.35}
+#signupScreen .signup-space-option small{font-size:12px;font-weight:400;line-height:1.6;color:#728591}
+#signupScreen .signup-space-icon{width:36px;height:36px;border-radius:11px;background:#eef3f0;color:#29475b;font-size:21px;font-weight:400}
+#signupScreen .signup-space-option input{width:16px!important;height:16px;opacity:.82}
+#signupScreen .signup-space-option:hover{border-color:#a9bdc1;background:#fafcfb}
