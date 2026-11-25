@@ -648,3 +648,5 @@ html,body{max-width:100%;overflow-x:clip}
 #signupScreen .signup-space-icon{width:36px;height:36px;border-radius:11px;background:#eef3f0;color:#29475b;font-size:21px;font-weight:400}
 #signupScreen .signup-space-option input{width:16px!important;height:16px;opacity:.82}
 #signupScreen .signup-space-option:hover{border-color:#a9bdc1;background:#fafcfb}
+
+.onboarding{border:1px solid #c97859;margin-bottom:16px}.onboarding button{margin:8px 0}.suggested-categories{margin:16px 0;padding:12px;border:1px solid #dedbd5;border-radius:12px}.suggested-categories .item{gap:8px}.onboarding[hidden],.suggested-categories[hidden]{display:none!important}
